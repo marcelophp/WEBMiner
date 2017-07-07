@@ -1,0 +1,2 @@
+# XMRMiner
+Minerar moeda XMR
