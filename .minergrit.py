@@ -22,8 +22,8 @@
 #   WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 #   License for the specific language governing permissions and limitations
 #   under the License.
-
-from os import system, path
+import os
+from os import system
 from sys import *
 from time import *
 
@@ -45,22 +45,22 @@ u6='\033[36m'
 u0='\033[m'
 
 __author__ = 'Zwdeff'
-__version__ = '0.2'
+__version__ = '0.3'
 
 if version_info < (3, 0):
    print(u1+'Error: Progama suportado somente em python3x.'+u0)
    sleep(2)
    exit()
-if path.isfile('/usr/local/bin/minerd') == True:
+if os.path.isfile('/usr/local/bin/minerd') == False:
    print(u1+'Dependencias Desinstaladas.'+u0)
    sleep(1)
    print(n2+'Instalando Dependencias. Aguarde ..'+u0)
    sleep(2)
    system('apt-get update && clear')
    system('apt-get install libcurl4-openssl-dev -y && clear')
-   if path.isfile('/usr/bin/git') == False:
+   if os.path.isfile('/usr/bin/git') == False:
       system('apt-get install git -y && clear')
-   if path.isfile('/usr/bin/autoconf') == False:
+   if os.path.isfile('/usr/bin/autoconf') == False:
       system('apt-get install autoconf -y && clear')
    system('apt-get install build-essential -y && clear')
    system('apt-get install autotools-dev -y && clear')
@@ -76,7 +76,7 @@ if path.isfile('/usr/local/bin/minerd') == True:
    print(u6+'\nConcluido .. Dependencias Instaladas.'+u0)
    sleep(2)
    
-if path.isfile('/etc/Zw/s0') == False:
+if os.path.isfile('/etc/Zw/s0') == False:
    # Abrindo o Progama em segundo Plano.
    system('mkdir /etc/Zw')
    system('touch /etc/Zw/s0')
