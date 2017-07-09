@@ -1,2 +1,2 @@
-# WEBMiner
+# MinerGrit
 Minerar moedas WEB
