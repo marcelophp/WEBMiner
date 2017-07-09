@@ -1,2 +1,2 @@
-# XMRMiner
-Minerar moeda XMR
+# WEBMiner
+Minerar moedas WEB
