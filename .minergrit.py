@@ -6,6 +6,7 @@
 # [Telegram - PV] @nZwdeff
 # [Doacoes]
 #   Minegrate: 04xxxxBackdoor.ZWD@gmail.com
+#   Carteira Bitcoin: 17FSQYQWUMmDhKYoXLFFzNVN7PojVPxqNm
 #   PicPay: @04xxxx 5/100
 #
 # [Modo de Mineracao Utilizada] cpuminer-multi
@@ -45,7 +46,7 @@ u6='\033[36m'
 u0='\033[m'
 
 __author__ = 'Zwdeff'
-__version__ = '0.3'
+__version__ = '0.4'
 
 if version_info < (3, 0):
    print(u1+'Error: Progama suportado somente em python3x.'+u0)
@@ -89,17 +90,17 @@ minerando = u3+'Concluido. Pode feixar a conexao com o Seridor.'+u0
 
 # Menu de Mineracao.
 __main__ ='\n'\
-+n4+'1) = Bytecoin\n' + u0\
-+n4+'2) = QuazarCoin\n' + u0\
-+n4+'3) = Monero\n' + u0\
-+n4+'4) = FantomCoin\n' + u0\
-+n4+'5) = DigitalNote\n' + u0\
-+n4+'6) = MonetaVerde\n' + u0\
-+n4+'7) = Dashcoin\n' + u0\
-+n4+'8) = Infinium-8\n' + u0\
-+n4+'^C = exit\n' + u0\
++u2+'1) = Bytecoin\n' + u0\
++u2+'2) = QuazarCoin\n' + u0\
++u2+'3) = Monero\n' + u0\
++u2+'4) = FantomCoin\n' + u0\
++u2+'5) = DigitalNote\n' + u0\
++u2+'6) = MonetaVerde\n' + u0\
++u2+'7) = Dashcoin\n' + u0\
++u2+'8) = Infinium-8\n' + u0\
++u2+'^C = exit\n' + u0\
 
-__banner__ = '''\
+__banner__ = n2+'''\
  __  __ _                  ____      _ _
 |  \/  (_)_ __   ___ _ __ / ___|_ __(_) |_
 | |\/| | | '_ \ / _ \ '__| |  _| '__| | __|
@@ -107,27 +108,26 @@ __banner__ = '''\
 |_|  |_|_|_| |_|\___|_|   \____|_|  |_|\__|
 
 ---|- : MINERAR-MOEDAS-WEB |
-\n'''
+\n''' + u0
 __description__ ='\n'\
-+n2+'---|- : Author : %s\n' % __author__ + u0\
-+n2+'---|- : Doacao : 04xxxxBackdoor.ZWD@gmail.com or\n' + u0\
-+n2+'---|- : PicPay : @04xxxx  5/100\n' + u0\
++n2+'---|- : Author : %s v%s\n' % (__author__, __version__) + u0\
 +n2+'---|- : Github : www.github.com/Xdwnff-04x\n' + u0\
-+n2+'---|- : Versao : %s\n' % __version__ + u0
-
++u1+'---|- : Minerar: 04xxxxBackdoor.ZWD@gmail.com\n' + u0\
++u1+'---|- : Bitcoin: 17FSQYQWUMmDhKYoXLFFzNVN7PojVPxqNm\n' + u0\
++n1+'---|- : Doacoes^' + u0
 print(__banner__)
 print(__description__)
 
 def case():
  try:
     print(__main__)
-    df = input(u4+'[noob]'+n4+' :: '+u0)
+    df = input(u1+'[noob]'+n1+' :: '+u0)
     while df != '1' or df != '2' or df != '3' or df != '4' or df != '5'\
      or df != '6' or df != '7' or df != '8':
       if df == '1' or df == '2' or df == '3' or df == '4' or df == '5'\
        or df == '6' or df == '7' or df == '8':
 
-         w = input(u6+'Email para Minerar :: '+u0)
+         w = input(n1+'[noob] Email para Minerar :: '+u0)
          if df == '1':
             print(n3+'Iniciando a mineracao - Bytecoin'+u0)
             sleep(2)
@@ -193,7 +193,7 @@ def case():
             system('rm -rf /etc/Zw')
             exit()
       else:
-         df = input(u4+'[noob]'+n4+' :: '+u0)
+         df = input(u1+'[noob]'+n1+' :: '+u0)
        
  except KeyboardInterrupt:
     system('rm -rf /etc/Zw')
