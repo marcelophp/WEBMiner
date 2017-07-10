@@ -17,7 +17,7 @@
     <td width="100px" class="main2"><b>Versão:</b></td><td width="780px">0.5</td>
   </tr>
   <tr>
-    <td width="100px" class="main2"><b>Descrição:</b></td><td width="780px">MonerGrit é uma ferramenta para mineração de Moedas WEB. Thais como, Monero, Bytecoin, DigitalNote, etc.</td>
+    <td width="100px" class="main2"><b>Descrição:</b></td><td width="780px">MinerGrit é uma ferramenta para mineração de Moedas WEB. Thais como, Monero, Bytecoin, DigitalNote, etc.</td>
   </tr>
   <tr>
     <td width="100px" class="main2"><b>Modo de Mineracao:</b></td><td width="780px">cpuminer-multi.<br>https://github.com/wolf9466/cpuminer-multi.</br></td>
