@@ -129,6 +129,7 @@ __banner__ = n2+'''\
 __description__ ='\n'\
 +n2+'---|- : Author :'+u1+' %s v%s\n' % (__author__, __version__) + u0\
 +n2+'---|- : Github :'+u1+' www.github.com/Xdwnff-04x\n' + u0\
++n2+'---|- : Channel:'+u1+' telegram.me/ZWDChannel\n' + u0\
 +u2+'---|- : Minerar:'+u1+' 04xxxxBackdoor.ZWD@gmail.com\n' + u0\
 +u2+'---|- : Bitcoin:'+u1+' 17FSQYQWUMmDhKYoXLFFzNVN7PojVPxqNm\n' + u0\
 +u2+'---|- : Doacoes^' + u0
