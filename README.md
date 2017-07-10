@@ -41,7 +41,7 @@
     <td class="main3" width="890px">&#9733; <b>Modo de usar:</b></td>
   </tr>
   <tr>
-    <td class="main"> <br>wget https://raw.githubusercontent.com/Xdwnff-04x/WEBMiner/master/minergrit.py<br/> <br>chmod +x minergrit.py<br/> <br>python3 minergrit.py<br/><br>Não e preciso utilizar ó screen para deixar em segundo plano, o progama faz isto automaticamente.<br>Para Reabrir o progama apos ter feixado á conxão com o servidor utilize: screen -r<b>Caso o python3 não estiver instalado:<b><br> apt-get install python3</br></td>
+    <td width="500px" class="main"> <br>wget https://raw.githubusercontent.com/Xdwnff-04x/WEBMiner/master/minergrit.py<br/> <br>chmod +x minergrit.py<br/> <br>python3 minergrit.py<br/><br>Não e preciso utilizar ó screen para deixar em segundo plano, o progama faz isto automaticamente.<br>Para Reabrir o progama apos ter feixado á conxão com o servidor Utilize: screen -r</br><b>Caso o python3 não estiver instalado:<b><br> apt-get install python3</br></td>
   </tr>
 </body>
 </html>
