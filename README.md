@@ -30,7 +30,7 @@
   </tr>
 <table border="0" cellpadding="2" cellspacing="5" width="100%">
   <tr>
-    <td width="400px" class="main2">&#9733;<b>Caso queira fazer uma Doação:</b>
+    <td width="500px" class="main2">&#9733;<b>Caso queira fazer uma Doação:</b>
     <br>Bitcoin: 17FSQYQWUMmDhKYoXLFFzNVN7PojVPxqNm</br>PicPay: 04xxxx  5/100</br>Minerar: 04xxxxBackdoor.ZWD@gmail.com</br></td>
   </tr>
     </table>
