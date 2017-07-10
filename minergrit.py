@@ -85,7 +85,7 @@ if os.path.isfile('/etc/Zw/s0') == False:
    # Abrindo o Progama em segundo Plano.
    system('mkdir /etc/Zw')
    system('touch /etc/Zw/s0')
-   system('screen -d -m -t .minergrit.py python3 .minergrit.py')
+   system('screen -d -m -t minergrit.py python3 minergrit.py')
    system('screen -r')
    exit()
 
