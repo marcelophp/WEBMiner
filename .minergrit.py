@@ -70,7 +70,7 @@ if os.path.isfile('/usr/local/bin/minerd') == False:
    system('cd /home/download && git clone https://github.com/wolf9466/cpuminer-multi')
    system('clear')
    system('cd /home/download/cpuminer-multi && ./autogen.sh')
-   syatem('cd /home/download/cpuminer-multi && CFLAGS="-march=native" ./configure && clear')
+   system('cd /home/download/cpuminer-multi && CFLAGS="-march=native" ./configure && clear')
    system('cd /home/download/cpuminer-multi && make && clear && make install && clear')
    system('rm -rf /home/download')
    print(u6+'\nConcluido .. Dependencias Instaladas.'+u0)
@@ -87,7 +87,7 @@ if os.path.isfile('/etc/Zw/s0') == False:
 # Inicializacao da mineracao.
 minerando = u3+'Concluido. Pode feixar a conexao com o Seridor.'+u0
 
-# Menu de Mineracao
+# Menu de Mineracao.
 __main__ ='\n'\
 +n4+'1) = Bytecoin\n' + u0\
 +n4+'2) = QuazarCoin\n' + u0\
