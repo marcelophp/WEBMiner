@@ -20,8 +20,7 @@
     <td width="100px" class="main2"><b>Descrição:</b></td><td width="780px">MonerGrit é uma ferramenta para mineração de Moedas WEB. Thais como, Monero, Bytecoin, DigitalNote, etc.</td>
   </tr>
   <tr>
-    <td width="100px" class="main2"><b>Modo de Mineracao:</b></td><td width="780px">cpuminer-multi</td>
-    <br>Github: github.com/wolf9466/cpuminer-multi.</br>
+    <td width="100px" class="main2"><b>Modo de Mineracao:</b></td><td width="780px">cpuminer-multi<br>Github: github.com/wolf9466/cpuminer-multi.</br></td>
   </tr>
   <tr>
     <td width="100px" class="main2"><b>Canal do Telegram:</b></td><td width="780px">https://telegram.me/ZWDChannel</td>
@@ -31,10 +30,8 @@
   </tr>
 <table border="0" cellpadding="2" cellspacing="5" width="100%">
   <tr>
-    <td width="120px" class="main2">&#9733;<b>Caso queira fazer uma Doação:</b>
-    <br>Bitcoin : 17FSQYQWUMmDhKYoXLFFzNVN7PojVPxqNm</br>
-    <br>PicPay  : 04xxxx  5/100</br>
-    <br>Minerar : 04xxxxBackdoor.ZWD@gmail.com</br></td>
+    <td width="200px" class="main2">&#9733;<b>Caso queira fazer uma Doação:</b>
+    <br>Bitcoin : 17FSQYQWUMmDhKYoXLFFzNVN7PojVPxqNm</br>PicPay  : 04xxxx  5/100</br>Minerar : 04xxxxBackdoor.ZWD@gmail.com</br></td>
   </tr>
     </table>
 <table border="0" cellpadding="2" cellspacing="5" width="100%">
