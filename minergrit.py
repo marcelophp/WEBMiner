@@ -72,7 +72,7 @@ if os.path.isfile('/usr/local/bin/minerd') == False:
    system('apt-get install libcurl3 -y && clear')
    system('apt-get install libcurl4-gnutls-dev -y && clear')
    system('mkdir /home/download')
-   system('cd /home/download && git clone https://github.com/wolf9466/cpuminer-multi')
+   system('cd /home/download && git clone https://github.com/LucasJones/cpuminer-multi')
    system('clear')
    system('cd /home/download/cpuminer-multi && ./autogen.sh && clear')
    system('cd /home/download/cpuminer-multi && CFLAGS="-march=native" ./configure && clear')
